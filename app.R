@@ -17,7 +17,7 @@ ui <- shinyUI(fluidPage(
         numericInput("hematocrit", "Hematocrit:", 40,min = 1, max = 100), style="font-size:170%; font-family:Arial;"),
       submitButton(text = "Calculate"),
       hr(),
-      helpText("Please make your selection and click calculate to claculate the operative bleeding probability")),
+      helpText("Please make your selection and click calculate to calculate the operative bleeding probability")),
     mainPanel(
       htmlOutput("text_calc"))))
 )
